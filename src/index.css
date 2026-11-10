@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=JetBrains+Mono:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background:
+    radial-gradient(1100px 520px at 50% -12%, rgba(57, 211, 83, 0.08), transparent 62%),
+    #0d1117;
+  font-family: "Inter", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(57, 211, 83, 0.28);
+  color: #eaffef;
+}
+
+:focus-visible {
+  outline: 2px solid #39d353;
+  outline-offset: 2px;
+}

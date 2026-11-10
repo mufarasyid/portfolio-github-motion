@@ -1,0 +1,23 @@
+{
+  "name": "portfo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "M. Fadillah Rasyid: portfolio lab. A year of GitHub contribution data, animated six ways on canvas.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fetch-github": "node scripts/fetch-github.mjs"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.4"
+  }
+}
